@@ -1,0 +1,306 @@
+{
+  "frames" :[
+    {
+    "frameNumber" : 0,
+    "scene" : {
+      "camera" : {
+        "target" : [0, 0.5, 0],
+        "eye" : [5, 5.5, -20],
+        "worldUp" : [0, 1, 0],
+        "fov" : 20.5,
+        "width" : 512,
+        "height": 512
+      },
+      "primitives" : [
+        {
+          "shape" : "SquarePlane",
+          "name" : "Floor",
+          "material" : "matteWhite",
+          "transform" : {
+            "translate" : [0, -2.5, 0],
+            "rotate" : [-90, 0, 0],
+            "scale" : [10, 10, 1]
+          }
+        },
+        {
+          "shape" : "SquarePlane",
+          "name" : "Blue wall",
+          "material" : "matteBlue",
+          "transform" : {
+            "translate" : [5,2.5,0],
+            "rotate" : [0, -90, 0],
+            "scale" : [10, 10, 1]
+          }
+        },
+        {
+          "shape" : "SquarePlane",
+          "name" : "Purple Wall",
+          "material" : "mattePurple",
+          "transform" : {
+            "translate" : [-5, 2.5, 0],
+            "rotate" : [0,90,0],
+            "scale" : [10, 10, 1]
+          }
+        },
+        {
+          "shape" : "SquarePlane",
+          "name" : "Back Wall",
+          "material" : "matteCyan",
+          "transform" : {
+            "translate" : [0,2.5,5],
+            "rotate" : [0,180,0],
+            "scale" : [10, 10, 1]
+          }
+        },
+        {
+          "shape" : "SquarePlane",
+          "name" : "Ceiling Wall",
+          "material" : "matteWhite",
+          "transform" : {
+            "translate" : [0, 7.5, 0],
+            "rotate" : [90,0,0],
+            "scale" : [10, 10, 1]
+          }
+        },
+        {
+          "shape" : "Sphere",
+          "name" : "Sphere1",
+          "material" : "chromeMirror",
+          "transform" : {
+            "translate" : [-2.6, 0, -1.5],
+            "rotate" : [0, 0, 0],
+            "scale" : [0.5, 0.5, 0.5]
+          }
+        },
+        {
+          "shape" : "Sphere",
+          "name" : "Sphere2",
+          "material" : "chromeMirror",
+          "transform" : {
+            "translate" : [-1, -0.5, -1.5],
+            "rotate" : [0, 0, 0],
+            "scale" : [0.5, 0.5, 0.5]
+          }
+        },
+        {
+          "shape" : "Sphere",
+          "name" : "Sphere3",
+          "material" : "chromeMirror",
+          "transform" : {
+            "translate" : [0, -0.5, -1.5],
+            "rotate" : [0, 0, 0],
+            "scale" : [0.5, 0.5, 0.5]
+          }
+        },
+        {
+          "shape" : "Sphere",
+          "name" : "Sphere4",
+          "material" : "chromeMirror",
+          "transform" : {
+            "translate" : [1, -0.5, -1.5],
+            "rotate" : [0, 0, 0],
+            "scale" : [0.5, 0.5, 0.5]
+          }
+        },
+        {
+          "shape" : "Sphere",
+          "name" : "Sphere5",
+          "material" : "chromeMirror",
+          "transform" : {
+            "translate" : [2, -0.5, -1.5],
+            "rotate" : [0, 0, 0],
+            "scale" : [0.5, 0.5, 0.5]
+          }
+        },
+        {
+          "shape" : "Cube",
+          "name" : "base cube",
+          "material" : "blackColor",
+          "transform" : {
+            "translate" : [0, -2.5, 0.5],
+            "rotate" : [0,0,0],
+            "scale" : [7.5, 0.3, 5.5]
+          }
+        },
+        {
+          "shape" : "Cube",
+          "name" : "bar 1",
+          "material" : "blackColor",
+          "transform" : {
+            "translate" : [-3.7, -0.5, 3.5],
+            "rotate" : [0,0,0],
+            "scale" : [0.1, 4.5, 0.1]
+          }
+        },
+        {
+          "shape" : "Cube",
+          "name" : "bar 2",
+          "material" : "blackColor",
+          "transform" : {
+            "translate" : [-3.7, -0.5, -2.5],
+            "rotate" : [0,0,0],
+            "scale" : [0.1, 4.5, 0.1]
+          }
+        },
+        {
+          "shape" : "Cube",
+          "name" : "bar 3",
+          "material" : "blackColor",
+          "transform" : {
+            "translate" : [3.7, -0.5, 3.5],
+            "rotate" : [0,0,0],
+            "scale" : [0.1, 4.5, 0.1]
+          }
+        },
+        {
+          "shape" : "Cube",
+          "name" : "bar 4",
+          "material" : "blackColor",
+          "transform" : {
+            "translate" : [3.7, -0.5, -2.5],
+            "rotate" : [0,0,0],
+            "scale" : [0.1, 4.5, 0.1]
+          }
+        },
+        {
+          "shape" : "Cube",
+          "name" : "bar 5",
+          "material" : "blackColor",
+          "transform" : {
+            "translate" : [0, 1.8, -2.5],
+            "rotate" : [0,0,0],
+            "scale" : [7.5, 0.1, 0.1]
+          }
+        },
+        {
+          "shape" : "Cube",
+          "name" : "bar 6",
+          "material" : "blackColor",
+          "transform" : {
+            "translate" : [0, 1.8, 3.5],
+            "rotate" : [0,0,0],
+            "scale" : [7.5, 0.1, 0.1]
+          }
+        }
+      ],
+      "lights" : [
+        {
+          "shape" : "SquarePlane",
+          "name" : "Light Source Yellow",
+          "type" : "DiffuseAreaLight",
+          "lightColor" : [17,12,4],
+          "intensity" : 1.5,
+          "transform" : {
+            "translate" : [1,7.45,0],
+            "rotate" : [90,0,0],
+            "scale" : [2, 2, 1]
+          },
+          "isDelta" : false,
+          "twoSided" : true
+        },
+        {
+          "shape" : "SquarePlane",
+          "name" : "Light Source Blue",
+          "type" : "DiffuseAreaLight",
+          "lightColor" : [4,12,17],
+          "intensity" : 1,
+          "transform" : {
+            "translate" : [0,7.45,0],
+            "rotate" : [90,0,0],
+            "scale" : [2, 2, 1]
+          },
+          "isDelta" : false,
+          "twoSided" : true
+        },
+        {
+          "shape" : "SquarePlane",
+          "name" : "Light Source Pink",
+          "type" : "DiffuseAreaLight",
+          "lightColor" : [17,8,17],
+          "intensity" : 1,
+          "transform" : {
+            "translate" : [-1,7.45,0],
+            "rotate" : [90,0,0],
+            "scale" : [2, 2, 1]
+          },
+          "isDelta" : false,
+          "twoSided" : true
+        },
+        {
+          "shape" : "Disc",
+          "name" : "Light Source White",
+          "type" : "DiffuseAreaLight",
+          "lightColor" : [1, 1, 1],
+          "intensity" : 2,
+          "transform" : {
+            "translate" : [0,0,-15],
+            "rotate" : [0,0,0],
+            "scale" : [2, 2, 2]
+          },
+          "isDelta" : false,
+          "twoSided" : true
+        }
+      ],
+      "materials" : [
+        {
+          "type" : "MatteMaterial",
+          "name" : "matteWhite",
+            "Kd" : [0.85, 0.81, 0.78],
+          "sigma": 0
+        },
+        {
+          "type" : "MatteMaterial",
+          "name" : "matteBlue",
+          "Kd" : [0.164, 0.396, 0.898],
+          "sigma": 0
+        },
+        {
+          "type" : "MatteMaterial",
+          "name" : "mattePurple",
+          "Kd" : [0.486, 0.129, 0.909],
+          "sigma": 0
+        },
+        {
+          "type" : "MatteMaterial",
+          "name" : "matteCyan",
+          "Kd" : [0.560, 0.949, 1],
+          "sigma": 0
+        },
+	      {
+          "type": "TransmissiveMaterial",
+          "name": "transmissiveMaterial",
+          "Kt": [0.701, 0.960, 1],
+          "eta": 1.5,
+          "roughness": 0.0
+        },
+        {
+          "type": "MirrorMaterial",
+          "name": "chromeMirror",
+          "Kr": [1, 1, 1],
+          "roughness": 0.02
+        },
+        {
+          "type" : "PlasticMaterial",
+          "name" : "bubbleMat",
+           "Kd" : [0.425, 0.405, 0.39],
+            "Ks" : [1, 1, 1],
+          "roughness": 0.1
+        },
+        {
+          "type": "TransmissiveMaterial",
+          "name": "transmissiveMaterial1",
+          "Kt": [0.7, 1, 0.7],
+          "eta": 1.6,
+          "roughness": 0.05
+        },
+        {
+          "type": "MirrorMaterial",
+          "name": "blackColor",
+          "Kr": [0.5,0.5,0.5],
+          "roughness": 0.5
+        }
+      ]
+    }
+  }
+]
+}
